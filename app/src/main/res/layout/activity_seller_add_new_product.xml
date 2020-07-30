@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Sellers.SellerAddNewProductActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/r_main1"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/circular_round_border"
+        >
+
+
+            <ImageView
+                android:id="@+id/select_product_image"
+                android:layout_width="320dp"
+                android:layout_height="230dp"
+                android:cropToPadding="false"
+                android:layout_marginLeft="22dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/upload"
+                android:layout_marginTop="30dp"
+                />
+
+
+        <EditText
+            android:id="@+id/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/select_product_image"
+            android:inputType="text|textCapWords"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:textColor="@android:color/background_dark"
+            android:hint="Crop Name.."
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/inputtext"/>
+
+
+            <EditText
+                android:id="@+id/product_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_name"
+                android:inputType="text|textCapSentences"
+                android:layout_marginTop="15dp"
+                android:padding="20dp"
+                android:textColor="@android:color/background_dark"
+                android:hint="Crop Description"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/inputtext"
+                />
+
+            <EditText
+                android:id="@+id/product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_description"
+                android:inputType="number"
+                android:layout_marginTop="15dp"
+                android:padding="20dp"
+                android:textColor="@android:color/background_dark"
+                android:hint="Cost"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/inputtext"
+                />
+
+
+            <Button
+                android:id="@+id/add_new_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/product_price"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/buttons"
+                android:text="Post Crop"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:padding="20dp"
+                />
+
+    </RelativeLayout>
+</RelativeLayout>

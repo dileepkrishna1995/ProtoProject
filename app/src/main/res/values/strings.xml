@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Pranava Agri Traders</string>
+
+
+    <string name="slogan">FARM TO HOME</string>
+
+
+    <string name="base_url">http://shyamcollege.in/Grocery/App/</string>
+    <string name="img_base_url">http://shyamcollege.in/Grocery/</string>
+
+    <string name="qunatity_display">All the Items Quantity are displayed in kilograms</string>
+
+    <string-array name="products_to_choose">
+        <item>Tomato</item>
+        <item>Carrot</item>
+        <item>Capsicum</item>
+        <item>Potato</item>
+        <item>Cabbage</item>
+        <item>BitterGourd</item>
+        <item>BottleGourd</item>
+        <item>Spinach</item>
+    </string-array>
+
+
+    <string name="cart">Cart</string>
+
+
+    <string name="farmer_login">Login</string>
+    <string name="customer_login">Not Having Account? Register</string>
+    <string name="log_in">Farmer Login</string>
+    <string name="login_customer">Customer Login</string>
+    <string name="login_farmer">Farmer Login</string>
+    <string name="register">Create Account</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="admin_textview">Admin Login</string>
+    <string name="not_admin_textview">Customer Login</string>
+    <string name="set_security_questions">Set Security Questions</string>
+
+    <string name="farmer_login_and_register">Farmer Login</string>
+    <string name="customer_login_and_register">Customer Login</string>
+
+    <string name="security_question1">What is your favourite food?</string>
+    <string name="security_question2">who is your favourite actor?</string>
+
+    <string name="menu_add_item">Add Products</string>
+
+
+    <string name="cart_confirm">Congratulations, your final order has been placed, soon it will be verified</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">SlideShow</string>
+
+    <string name="menu_search">Search</string>
+
+    <string name="menu_vegitables">Vegitables</string>
+    <string name="menu_fruits">Fruits</string>
+    <string name="menu_foodgrains">Food Grains</string>
+    <string name="menu_orders">Orders</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu_logout">Log Out</string>
+
+    <string name="home_second">Home Second</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543569887964",
+    "firebase_url": "https://ecommerce-c5b07.firebaseio.com",
+    "project_id": "ecommerce-c5b07",
+    "storage_bucket": "ecommerce-c5b07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543569887964:android:68a62427f755d6f025ea19",
+        "android_client_info": {
+          "package_name": "com.dileep.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543569887964-6lhqqp3ne6k4oe4stt01375np7g9p38j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dileep.ecommerce",
+            "certificate_hash": "30581a857ae23d1ef9e63246ce57c11517c9108a"
+          }
+        },
+        {
+          "client_id": "543569887964-fn5mk6sd8fget0tro8fd1bu2b14s248c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoP6CyWO3DJfo1CKQtIF_tj9I5RD-XlS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543569887964-fn5mk6sd8fget0tro8fd1bu2b14s248c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

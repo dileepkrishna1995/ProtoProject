@@ -1,0 +1,51 @@
+<resources>
+     <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimary</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+    <style name="MyTheme.AppBarOverlay" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- colouring check box -->
+        <style name="coloured_checkbox" parent="Theme.AppCompat.Light.Dialog.Alert">
+            <!-- selected checkbox -->
+            <item name="colorAccent">@color/colorPrimary</item>
+            <!-- before selection Checkbox -->
+            <item name="android:textColorSecondary">@android:color/darker_gray</item>
+
+        </style>
+
+        <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+            <item name="boxStrokeColor">@color/colorOrange</item>
+            <item name="boxStrokeWidth">2dp</item>
+        </style>
+
+        <style name="AppTheme.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        </style>
+
+        <style name="TextLabel" parent="TextAppearance.AppCompat">
+            <!-- Hint color and label color in FALSE state -->
+            <item name="android:textColorHint">@color/colorblue</item>
+            <item name="android:textSize">20sp</item>
+            <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="colorControlNormal">@color/colorblue</item>
+            <item name="colorControlActivated">@color/colorblue</item>
+        </style>
+
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        </style>
+
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+</resources>

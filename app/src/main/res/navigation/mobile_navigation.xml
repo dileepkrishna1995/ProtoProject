@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_vegitables">
+
+    <fragment
+        android:id="@+id/nav_vegitables"
+        android:name="com.dileep.ecommerce.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <activity
+        android:id="@+id/nav_search"
+        android:name="com.dileep.ecommerce.AboutUsActivity"
+        android:label="@string/menu_aboutus"
+        tools:layout="@layout/activity_aboutus" />
+
+    <activity
+        android:id="@+id/nav_orders"
+        android:name="com.dileep.ecommerce.Buyers.CartActivity"
+        android:label="@string/menu_orders"
+        tools:layout="@layout/activity_cart" />
+
+    <activity
+        android:id="@+id/nav_settings"
+        android:name="com.dileep.ecommerce.Buyers.SettingsActivity"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/activity_settings"
+        />
+
+</navigation>

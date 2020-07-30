@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerMainActivity">
+
+    <ImageView
+        android:id="@+id/seller_main_app_logo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/pat_name"/>
+
+    <TextView
+        android:id="@+id/seller_hi_there"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello There!"
+        android:textSize="30dp"
+        android:fontFamily="@font/nunito_sans"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/seller_main_app_logo"
+        />
+
+    <TextView
+        android:id="@+id/seller_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="32dp"
+        android:layout_below="@+id/seller_hi_there"
+        />
+
+
+    <TextView
+        android:id="@+id/seller_mobile_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signin to continue with your mobile number"
+        android:textSize="14dp"
+        android:layout_marginLeft="32dp"
+        android:layout_below="@+id/seller_welcome"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/phoneAuth"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/seller_mobile_textview"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        >
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext"
+            android:layout_marginLeft="32dp"
+            app:ccp_defaultNameCode="IN"
+            app:ccp_showNameCode="false"
+            app:ccp_showFlag="false"
+            app:ccp_showArrow="false"
+            android:padding="3dp"
+            app:ccp_contentColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/seller_phoneText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/ccp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/edittext"
+            android:hint="Enter your mobile number"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:inputType="number"
+            android:maxLength="11"
+            android:paddingLeft="10dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/seller_otp_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A 6 digit OTP will be sent via SMS to verify your mobile Number"
+        android:textSize="14dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="32dp"
+        android:layout_below="@+id/seller_mobile_textview"
+        />
+
+
+    <Button
+        android:id="@+id/continueNextButton"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/seller_otp_textview"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/buttons"
+        android:text="@string/common_signin_button_text"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="5dp"
+        />
+
+
+    <EditText
+        android:id="@+id/codeText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter the code"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/seller_mobile_textview"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/edittext"
+        android:textColorHint="@android:color/darker_gray"
+        android:paddingLeft="15dp"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
