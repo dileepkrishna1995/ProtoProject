@@ -3,12 +3,16 @@ apply plugin: 'com.google.gms.google-services'
 
 buildscript {
     repositories {
-        mavenCentral()
-    }
-   dependencies {
-        classpath 'com.android.tools.build:gradle:4.0.0'
+        // You need to add the following repository to download the
+        // new plugin.
+        google() // new which replace https://maven.google.com
+        jcenter()
     }
 
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.3'  //Minimum supported Gradle version is 4.6.
+        classpath 'com.google.gms:google-services:4.3.4'
+    }
 }
 
 android {
