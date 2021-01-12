@@ -10,7 +10,8 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.3'  //Minimum supported Gradle version is 4.6.
+        classpath 'com.android.tools.build:gradle:7.0.0-alpha01'
+        //Minimum supported Gradle version is 4.6.
         classpath 'com.google.gms:google-services:4.3.4'
     }
 }
@@ -61,7 +62,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui:2.0.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
 
-    implementation 'com.airbnb.android:lottie:3.4.1'
+    implementation 'com.airbnb.android:lottie:3.6.0'
     implementation 'com.android.support:design:28.0.0'
 
 
